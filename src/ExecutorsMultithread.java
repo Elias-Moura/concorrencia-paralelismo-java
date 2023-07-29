@@ -13,7 +13,7 @@ public class ExecutorsMultithread {
             executor = Executors.newCachedThreadPool();
 
             List<Tarefa> lista = new ArrayList<>();
-            for (long i = 0; i < 100000000; i++) {
+            for (long i = 0; i < 100; i++) {
                 lista.add(new Tarefa());
             }
 
